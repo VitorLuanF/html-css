@@ -1,0 +1,17 @@
+body {
+    height: 100vh;
+    margin: 0px;
+}
+div {
+    position: relative;
+    height: 100vh;
+    background: white url("../d011/imagens/espaco.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+div img {
+    position: absolute;
+
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 55%);
+}
