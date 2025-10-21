@@ -6,14 +6,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 :root {
-    --fonte1: Verdana, Arial, sans-serif;
-    --fonte2: "Passion One" , sans-serif;
-    --fonte3: "Sriracha", sans-serif;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One' , sans-serif;
+    --fonte3: 'Sriracha', sans-serif;
 
 }
 html, body { 
+    font-family: var(--fonte1);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -24,7 +26,6 @@ header {
     font-family: var(--fonte1);
 }
 header > h1 {
-    margin: 0px;
     font-size: 10vw;
     font-family: var(--fonte2);
     padding-top: 50px;
@@ -56,9 +57,7 @@ section.normal {
 section p {
     padding-bottom: 2em;
 }
-
 section.imagem {
-    
     background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.61);
