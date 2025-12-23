@@ -28,20 +28,18 @@ header {
 header > h1 {
     text-shadow: 2px 1px rgba(0, 0, 0, 0.253);
     margin-bottom: 5px;
-    border: 2px dashed black;
-
+    
     flex: 0 0 200px;
 }
 header > nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
-    
-    border: 2px dashed black;
 }
 
 header > nav > a {
     text-decoration: none;
+    text-align: center;
     color: white;
     background-color: black;
     border-radius: 5px;
